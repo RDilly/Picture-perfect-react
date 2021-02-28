@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import "./face-api.min.js";
 import "./App.css";
 import Slider from "./Slider";
 import SidebarItem from "./SidebarItem";
+import Video from "./Video";
 
 const DEFAULT_OPTIONS = [
   {
@@ -100,7 +102,15 @@ function App() {
 
   return (
     <div className="container">
-      <div className="main-image" style={getImageStyle()} />
+      <div className="main-image" style={getImageStyle()}>
+        <Video />
+
+        {/* <img
+          className="main-image"
+          style={getImageStyle()}
+          src="https://www.bosshunting.com.au/wp-content/uploads/2020/03/reno-911-1-1027x560.jpg"
+        /> */}
+      </div>
       <div className="sidebar">
         {options.map((option, index) => {
           return (

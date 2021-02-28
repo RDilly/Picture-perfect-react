@@ -21,7 +21,7 @@ body {
 
 .main-image {
   grid-area: image;
-  background-image: Url("https://images.unsplash.com/photo-1614138123980-ca4d47285303?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80");
+  background-image: Url("https://images.squarespace-cdn.com/content/v1/500d8d9dc4aa65567192d7dc/1383330596634-WGGJMWVS4XG3M5HWIG42/ke17ZwdGBToddI8pDm48kNHNFn4KlwQOcDzYmITCR6kUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKci8fUPDANenUMo4VHMJNifsubcuLNKvQxnN-prJpf2Pk_q3qdzl9MT69pMmvCjggz/gq.jpg");
   width: 100%;
   height: 100%;
   background-position: top center;

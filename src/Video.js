@@ -1,5 +1,4 @@
 import React from "react";
-import "./face-api.min.js";
 
 class Video extends React.Component {
   constructor(props) {

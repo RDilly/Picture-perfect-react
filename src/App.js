@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./face-api.min.js";
 import "./App.css";
 import Slider from "./Slider";
 import SidebarItem from "./SidebarItem";
